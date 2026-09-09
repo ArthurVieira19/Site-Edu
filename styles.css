@@ -214,6 +214,12 @@ svg{ display:block; }
 .btn-sm{ padding:.55rem 1.1rem; font-size:.78rem; }
 .btn-block{ width:100%; }
 
+@media (max-width:360px){
+  .btn{ padding:.75rem 1.1rem; font-size:.8rem; gap:.4rem; }
+  .btn .ico{ width:18px; height:18px; }
+  .btn-lg{ padding:.85rem 1.25rem; font-size:.85rem; }
+}
+
 /* ---------- Header ---------- */
 .site-header{
   position:sticky; top:0; z-index:100;
@@ -284,7 +290,7 @@ svg{ display:block; }
 
 .hero-bg{
   position:relative;
-  aspect-ratio:3/4;
+  min-height:560px;
   display:flex; align-items:center;
   overflow:hidden;
   isolation:isolate;
@@ -354,11 +360,11 @@ svg{ display:block; }
 .hero-trust svg{ width:18px; height:18px; color:var(--yellow); flex:none; }
 
 @media (min-width:640px){
-  .hero-bg{ aspect-ratio:16/10; }
+  .hero-bg{ min-height:640px; }
   .hero-bg-img{ object-position:70% 28%; }
 }
 @media (min-width:960px){
-  .hero-bg{ aspect-ratio:auto; min-height:88vh; }
+  .hero-bg{ min-height:88vh; }
   .hero-bg-img{ object-position:58% 32%; }
   .hero-bg-overlay{
     background:
