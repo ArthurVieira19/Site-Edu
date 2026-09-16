@@ -47,31 +47,6 @@
     });
   }
 
-  // ---------- Abas de pacotes ----------
-  function initTabs() {
-    var buttons = document.querySelectorAll(".tab-btn");
-    if (!buttons.length) return;
-
-    buttons.forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        var targetId = btn.getAttribute("data-tab");
-
-        buttons.forEach(function (b) {
-          b.classList.remove("is-active");
-          b.setAttribute("aria-selected", "false");
-        });
-        btn.classList.add("is-active");
-        btn.setAttribute("aria-selected", "true");
-
-        document.querySelectorAll(".tab-panel").forEach(function (panel) {
-          var isTarget = panel.id === targetId;
-          panel.classList.toggle("is-active", isTarget);
-          panel.hidden = !isTarget;
-        });
-      });
-    });
-  }
-
   // ---------- Animação de entrada ao rolar ----------
   function initReveal() {
     var items = document.querySelectorAll(".reveal");
@@ -107,7 +82,6 @@
     buildWhatsappLinks();
     initHeaderScroll();
     initMobileNav();
-    initTabs();
     initReveal();
     setYear();
   });
