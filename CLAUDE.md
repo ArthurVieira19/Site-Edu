@@ -109,7 +109,7 @@ Regra importante: o amarelo é *apoio*, não protagonista — usar em CTAs secun
 | Pacote 4 | 16 aulas + exame prático | R$ 999,00 |
 
 ### 5.3 Carro + Moto (combo — só para primeira habilitação, quem quer tirar as duas categorias juntas)
-- **Pacote Completo:** 10 aulas de carro + 10 aulas de moto + exame prático (carro e moto) — **R$ 1.299,00**, parcelado no cartão. Pacote "carro-chefe" para quem está começando do zero em ambos.
+- **Pacote Completo:** 10 aulas de carro + 10 aulas de moto + exame prático (carro e moto) — **R$ 1.499,00**, parcelado no cartão. Pacote "carro-chefe" para quem está começando do zero em ambos.
 - **Combo entrada:** 2 aulas (carro + moto) + exames práticos (carro e moto) — **R$ 700,00**. Opção pra experimentar os dois antes de fechar o pacote completo.
 
 **Exibição dos pacotes:** a landing page usa 3 abas — **"Carro"**, **"Moto"** e **"Carro + Moto"** — cada uma com seu grid de cards e 1 pacote destacado como "recomendado"/"mais escolhido"/"mais completo". Todos os pacotes têm seu próprio CTA de WhatsApp com mensagem pré-preenchida específica.
@@ -146,7 +146,7 @@ O cliente **tem material real** (fotos/vídeos do Eduardo, do carro/moto e de au
   - Fixo/flutuante (sticky) no mobile, sempre visível ao rolar a página.
   - Repetido ao final de cada seção relevante (depois da apresentação, depois dos pacotes, depois de depoimentos/social proof se houver).
   - Ícone oficial do WhatsApp, pode usar o verde tradicional *apenas* no botão (elemento funcional reconhecido, não é cor de marca).
-- Cada card de pacote deve ter seu próprio botão de WhatsApp com mensagem pré-preenchida específica (ex: *"Olá! Tenho interesse no Pacote Completo Carro + Moto (R$ 1.299,00)."*) — aumenta a taxa de resposta e já qualifica o lead pro Eduardo.
+- Cada card de pacote deve ter seu próprio botão de WhatsApp com mensagem pré-preenchida específica (ex: *"Olá! Tenho interesse no Pacote Completo Carro + Moto (R$ 1.499,00)."*) — aumenta a taxa de resposta e já qualifica o lead pro Eduardo.
 
 ### Estrutura sugerida de seções
 1. **Hero** — Headline forte, subheadline explicando o serviço, CTA de WhatsApp, foto real do Eduardo com o carro/moto.
