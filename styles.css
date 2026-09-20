@@ -237,10 +237,10 @@ svg{ display:block; }
 }
 .header-inner{
   display:flex; align-items:center; justify-content:space-between;
-  padding-block:.9rem;
+  padding-block:.5rem;
 }
 .brand{ display:flex; align-items:center; gap:.65rem; }
-.brand-logo{ height:40px; width:auto; border-radius:8px; display:block; }
+.brand-logo{ height:88px; width:auto; border-radius:8px; display:block; }
 .brand-text{ display:flex; flex-direction:column; line-height:1.05; }
 .brand-name{
   font-family:var(--font-display); color:#fff; font-size:1.15rem;
@@ -295,6 +295,7 @@ svg{ display:block; }
   .nav-toggle{ display:none; }
 }
 @media (max-width:899px){
+  .brand-logo{ height:52px; }
   .main-nav{
     display:flex;
     position:absolute; top:100%; left:0; right:0;
